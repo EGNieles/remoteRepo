@@ -36,13 +36,13 @@
 	</fieldset>
 	<fieldset>
 		<legend>User Information</legend>
-		<label></label> <input type="text" name="fname" /><br />
-		<label></label> <input type="text" name="lname" /><br />
-		<label></label> <input type="text" name="contact" /><br />
-		<label></label> <textarea rows="2" cols="20" name="address" ></textarea><br />
-		<label></label> <input type="text" name="city" /><br />
-		<label></label> <input type="text" name="state" /><br />
-		<label></label> <input type="text" name="zip" />
+		<label></label> <input type="text" name="fname" placeholder="First Name" /><br />
+		<label></label> <input type="text" name="lname" placeholder="Last Name" /><br />
+		<label></label> <input type="text" name="contact" placeholder="Contact" /><br />
+		<label></label> <textarea rows="2" cols="20" name="address" placeholder="Address" ></textarea><br />
+		<label></label> <input type="text" name="city" placeholder="City" /><br />
+		<label></label> <input type="text" name="state" placeholder="State" /><br />
+		<label></label> <input type="text" name="zip" placeholder="Zip" />
 	</fieldset>
 	<input type="submit" value="Register" onClick="return submit_form();" />
 	</form>
