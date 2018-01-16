@@ -29,8 +29,8 @@
 	<h1>Registration Form</h1>
 	<fieldset>
 		<legend>Account Information</legend>
-		<label></label> <input type="text" name="uname" /><br />
-		<label></label> <input type="text" name="email" /><br />
+		<label></label> <input type="text" name="uname" placeholder="Username" /><br />
+		<label></label> <input type="text" name="email" placeholder="Email" /><br />
 		<label></label> <input type="password" name="pass" /><br />
 		<label></label> <input type="password" name="cpass" />
 	</fieldset>
